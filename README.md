@@ -109,23 +109,25 @@ Instead of entering a complete name, the user can enter the **first letter or pa
 
 The system retrieves matching information from the database and can provide suggestions based on the entered information.
 
-### Example workflow:
 
-```text
-User enters:
-A
+```markdown
+### Example workflow
 
-        ↓
+**User enters:**
 
-System checks database
+`A`
 
-        ↓
+⬇️
 
-Matching names are retrieved
+**System checks the database**
 
-        ↓
+⬇️
 
-User can select the required record
+**Matching names are retrieved**
+
+⬇️
+
+**User selects the required record**
 
 This makes the system faster and easier to use while reducing unnecessary manual data entry.
 
