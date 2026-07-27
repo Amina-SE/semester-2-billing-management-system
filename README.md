@@ -128,10 +128,13 @@ The system retrieves matching information from the database and can provide sugg
 ⬇️
 
 **User selects the required record**
+```
 
 This makes the system faster and easier to use while reducing unnecessary manual data entry.
 
-💡 6. Tooltips
+---
+
+## 💡 6. Tooltips
 
 The application includes helpful tooltip text on different controls and buttons.
 
@@ -139,7 +142,9 @@ When the user places the cursor over a supported control, a short description ap
 
 This provides additional guidance and improves the overall usability of the interface.
 
-🧾 7. Billing System
+---
+
+## 🧾 7. Billing System
 
 The Billing section brings together the buyer and product information required to prepare an invoice.
 
@@ -153,7 +158,10 @@ Enter billing details
 Work with stored database records
 Prepare the final bill
 Generate an invoice PDF
-📄 8. Automatic PDF Invoice Generation
+
+---
+
+## 📄 8. Automatic PDF Invoice Generation
 
 One of the main features of the project is automatic PDF invoice generation using iTextPDF.
 
@@ -168,12 +176,16 @@ The generated invoice includes:
 
 The application also automatically generates the PDF filename using the customer's name followed by the actual date.
 
+```text
 Example:
 CustomerName_2026-07-27.pdf
+```
 
 This makes generated invoices easier to identify, organize, and retrieve.
 
-🗄️ Database
+---
+
+## 🗄️ Database
 
 The application uses MySQL for storing and managing buyer and product information.
 
@@ -185,7 +197,9 @@ product
 
 The complete SQL database file is included in the repository:
 
+```text
 Database/bms.sql
+```
 
 The SQL file can be imported into MySQL to recreate the database structure and data required by the application.
 
@@ -195,10 +209,12 @@ The application connects Java with MySQL using JDBC.
 
 The database connection is handled through:
 
+```text
 src/Project/ConnectionProvider.java
+```
+---
 
-
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Technology	Purpose
 ☕ Java	Core application development
 🧩 Object-Oriented Programming	Application structure and programming concepts
@@ -210,7 +226,10 @@ Technology	Purpose
 🎨 Java Forms	GUI form development
 🌱 Git & GitHub	Version control and project management
 
+---
+
 📁 Project Structure
+```text
 semester-2-billing-management-system/
 │
 ├── 📂 Database/
@@ -257,20 +276,11 @@ semester-2-billing-management-system/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-🖼️ Screenshots
+```
+---
 
-Screenshots demonstrating the application's interfaces are available in:
-
-Screenshots/
-
-🎥 Demo
-
-A recorded demonstration of the working application is available in:
-
-Demo/
-
-⚙️ How to Run
-📋 Requirements
+## ⚙️ How to Run
+# 📋 Requirements
 
 Before running the application, make sure you have:
 
@@ -279,7 +289,10 @@ Before running the application, make sure you have:
 🗄️ MySQL Server
 📄 iTextPDF library/dependencies
 1️⃣ Clone the Repository
+```text
 git clone https://github.com/Amina-SE/semester-2-billing-management-system.git
+```
+
 2️⃣ Open the Project
 
 Open the cloned project in NetBeans IDE.
@@ -289,20 +302,23 @@ The project follows the standard NetBeans Java project structure.
 3️⃣ Set Up the Database
 
 Create a MySQL database named:
-
+```text
 CREATE DATABASE bms;
+```
 
 Then import the SQL file:
-
+```text
 Database/bms.sql
+```
 
 This will recreate the required database tables and data.
 
 4️⃣ Configure the Database Connection
 
 Open:
-
+```text
 src/Project/ConnectionProvider.java
+```
 
 Update the MySQL username, password, and connection details according to your local MySQL configuration.
 
@@ -312,8 +328,9 @@ Update the MySQL username, password, and connection details according to your lo
 Build and run the project through NetBeans.
 
 Once the application starts, use the login screen to access the main system.
+---
 
-🧠 OOP Concepts Practiced
+## 🧠 OOP Concepts Practiced
 
 This project was initially developed as part of my Object-Oriented Programming coursework.
 
@@ -331,8 +348,9 @@ Exception handling
 Database connectivity
 
 The project also demonstrated how OOP concepts can be combined with GUI development, database connectivity, and external libraries to create a complete desktop application.
+---
 
-📚 What I Learned
+## 📚 What I Learned
 
 This project helped me move from developing smaller Java programs toward building a more complete desktop application.
 
@@ -350,7 +368,9 @@ Key learning outcomes:
 📁 Automatically naming generated PDF files
 🧩 Organizing a multi-screen desktop application
 🌱 Using Git and GitHub for project management and version control
-🔮 Future Improvements
+---
+
+## 🔮 Future Improvements
 
 Some possible future improvements include:
 
@@ -365,7 +385,9 @@ Some possible future improvements include:
 ✨ Improved UI/UX
 🔒 Better database security
 📑 More comprehensive reporting
-👩‍💻 Author
+---
+
+## 👩‍💻 Author
 Amina Batool
 
 Software Engineering Student
