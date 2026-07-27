@@ -279,8 +279,8 @@ semester-2-billing-management-system/
 ```
 ---
 
-## ⚙️ How to Run
-# 📋 Requirements
+# ⚙️ How to Run
+## 📋 Requirements
 
 Before running the application, make sure you have:
 
@@ -328,6 +328,7 @@ Update the MySQL username, password, and connection details according to your lo
 Build and run the project through NetBeans.
 
 Once the application starts, use the login screen to access the main system.
+
 ---
 
 ## 🧠 OOP Concepts Practiced
@@ -348,6 +349,7 @@ Exception handling
 Database connectivity
 
 The project also demonstrated how OOP concepts can be combined with GUI development, database connectivity, and external libraries to create a complete desktop application.
+
 ---
 
 ## 📚 What I Learned
@@ -368,6 +370,7 @@ Key learning outcomes:
 📁 Automatically naming generated PDF files
 🧩 Organizing a multi-screen desktop application
 🌱 Using Git and GitHub for project management and version control
+
 ---
 
 ## 🔮 Future Improvements
@@ -385,6 +388,7 @@ Some possible future improvements include:
 ✨ Improved UI/UX
 🔒 Better database security
 📑 More comprehensive reporting
+
 ---
 
 ## 👩‍💻 Author
@@ -399,13 +403,13 @@ https://github.com/Amina-SE
 
 📜 License
 
+<div align="center">
 This project is available under the license included in this repository.
 
-<div align="center">
 ⭐ Thanks for visiting this project!
 
 If you found this project interesting, feel free to explore the repository and check out the demo and screenshots.
 
 Built with Java ☕ • MySQL 🗄️ • JDBC 🔗 • iTextPDF 📄
 
-</div> ```
+</div> 
